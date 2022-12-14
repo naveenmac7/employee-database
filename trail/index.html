@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="index" href="terms and conditions.html">
+</head>
+<body>
+<div class="container register">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h3 class="register-heading">Employee register form</h3>
+                            <div class="row register-form">
+                                <div class="col-md-12">
+                                    <form action = 'register.php' method="post" autocomplete="off" name="employeeform" class="was-validated">
+                                        <div class="form-group">
+                                            <input type="text" name="Name" class="form-control" placeholder="Employee Name *" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="empno" class="form-control" placeholder="Employee_no *" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="int" name="salary" class="form-control" placeholder="Salary *" value="" required=""/>
+                                        </div>
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+                                            <label class="form-check-label" for="myCheck">I agree the <a href="/terms and conditions.html">terms and conditions</a></label>
+                                            <div class="valid-feedback">sucess</div>
+                                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" name="" class="btnSubmit btn-block" value="Submit" />
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+           
+        
+<!-- bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
+            
